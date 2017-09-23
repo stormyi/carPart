@@ -39,7 +39,7 @@ function opens(url){
          shade: [0.6, '#000'],//遮罩
 		 border: [0, 0, '#ccc'],//边框
          area: ['650px', '450px'],//宽高
-         iframe: { src: '' + url + '' },
+         iframe: { src: '' + url + 'static/pages/news/1.html' },
 		 shift: [ "top" ], //从下面动画弹出
          end: function () {
              window.location.reload();
