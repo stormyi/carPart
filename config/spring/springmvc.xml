@@ -43,7 +43,7 @@
 	<mvc:interceptors>
 	 <mvc:interceptor>
 	 <mvc:mapping path="/**"/>
-	 <bean class="com.xiupeilian.car.intercetor.ModeAndViewInterceptor"/>
+	 <bean class="com.xiupeilian.car.intercetor.UserAndPrimeInterceptor"/>
 	 </mvc:interceptor>
 	</mvc:interceptors>
    

@@ -72,4 +72,9 @@ public class LoginAction {
 		}
 		response.getWriter().write(code + "");
 	}
+	
+	@RequestMapping("/unauthorized.shtml")
+	   public String unauthorized(){
+		   return "commons/unauthorized";
+	   }
 }

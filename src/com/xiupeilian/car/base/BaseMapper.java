@@ -14,9 +14,8 @@ public interface BaseMapper<T> {
 	int updateByPrimaryKeySelective(T t);
 
 	int updateByPrimaryKey(T t);
-	
 
 	List<T> findByPageQuery(Page<T> page);
-	int findTotalRowsByPageQuery(Page<T> page);
 
+	int findTotalRowsByPageQuery(Page<T> page) ;
 }
